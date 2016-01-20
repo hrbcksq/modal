@@ -1,0 +1,62 @@
+@import url("modalbox.css");
+@import url("scroll.css");
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #EFEFEF;
+}
+
+div{
+
+	margin:0px;
+	padding: 0px;
+}
+
+div.panel{	
+	background-color: #253749;
+	/*box-shadow: 0 4px 6px 1px #ADB2B8;*/
+	box-shadow: 0 0 15px 0 black;
+	text-align:right;
+}
+
+input{
+	color:white;
+	/*background: #02A1F0;*/	
+	background-color: #80A2C0;
+	font-family: 'Frutiger Neue W02 Book', sans-serif;
+	border-radius:3px;
+	border: 1px #9CACA6 solid;
+  	padding: 4px 7px 4px 7px;	
+  	margin: 10px 12px 10px 12px;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.3) inset,0 1px 1px rgba(100,100,100,0.3);	
+}
+
+img{
+	width: 100%;
+	margin: 0px;
+}
+
+div.description{
+	padding: .3em 1em; 
+}
+
+div.modal-body{
+	overflow-y: auto; 	
+}
+
+p, h3{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: left;	
+	text-indent: 20px;
+}
+
+p{
+	font-size: 15px;
+}
+
+/*h3{
+	font-family: Arial;
+}
+
+
+*/
